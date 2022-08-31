@@ -1,0 +1,155 @@
+/***************/
+/* Tablets navigation */
+/***************/
+
+@media (min-width: 37.5em) {
+  .main_container {
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 380px;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .paragraph {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .price {
+    font-size: 2.6rem;
+  }
+
+  .p--p--month {
+    font-size: 1.4rem;
+  }
+
+  .paragraph--1 {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    max-width: 390px;
+    width: 100%;
+  }
+
+  .cta--btn {
+    font-size: 1.5rem;
+    max-width: 390px;
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+}
+
+/***************/
+/* Large tablets navigation */
+/***************/
+
+@media (min-width: 56.5em) {
+  .main_container {
+    max-width: 850px;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 780px;
+    width: 100%;
+    padding: 3.3rem;
+  }
+
+  .cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 865px;
+    width: 100%;
+  }
+
+  .container--2,
+  .container--3 {
+    max-width: 360px;
+    width: 100%;
+  }
+
+  .container--2 {
+    border-radius: 0 0 0 0.5em;
+    grid-column: 1;
+  }
+
+  .container--3 {
+    border-radius: 0 0 0.5em 0;
+    grid-column: 2;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .paragraph {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .price--details {
+    max-width: 155px;
+  }
+
+  .price {
+    font-size: 3.2rem;
+  }
+
+  .p--p--month {
+    font-size: 1.7rem;
+  }
+
+  .paragraph--1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .cta--btn {
+    font-size: 1.7rem;
+    max-width: 350px;
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.7rem;
+  }
+}
