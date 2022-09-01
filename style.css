@@ -18,7 +18,10 @@ body {
 /****************/
 
 .main_container--1 {
-  margin: 5rem auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main_container {
